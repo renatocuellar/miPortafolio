@@ -1,14 +1,17 @@
+@import "./button.css";
+@import "./header.css";
+
 :root {
   --fontBase: "Poppins", sans-serif;
-  --headline1: bold 95px/153px var(var(--fontBase));
-  --headline2: bold 59px/95px var(var(--fontBase));
-  --headline3: bold 48px/77px var(var(--fontBase));
-  --headline4: bold 34px/55px var(var(--fontBase));
-  --headline5: bold 24px/38px var(var(--fontBase));
-  --body1: normal 16px/25px var(var(--fontBase));
-  --body2: normal 14px/22px var(var(--fontBase));
-  --button: bold 14px/22px var(var(--fontBase));
-  --button: normal 12px/19px var(var(--fontBase));
+  --headline1: bold 95px/153px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
+  --body1: normal 16px/25px var(--fontBase);
+  --body2: normal 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: normal 12px/19px var(--fontBase);
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
@@ -17,16 +20,14 @@
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
   --purple: #310a90;
   --green: #42e2b8;
+  --white: #fff;
 }
 
 body {
   background: var(--gradient);
   min-block-size: 100vh;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
+  font: var(--body1);
+  color: var(--green);
 }
 
 .logotipo {
