@@ -1,0 +1,24 @@
+.introduction {
+  gap: 16px;
+}
+
+.introduction p {
+  font: normal 24px/38px var(--fontBase);
+  text-align: center;
+}
+
+.introduction h2 {
+  font: bold 24px/38px var(--fontBase);
+  text-align: center;
+}
+
+.introduction a {
+  display: flex;
+  align-items: center;
+}
+
+.introduction img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
