@@ -31,6 +31,7 @@
   .comment__testimony {
     display: flex;
     align-items: center;
+    gap: 32px;
     padding-block-start: 80px;
     padding-block-end: 80px;
   }
