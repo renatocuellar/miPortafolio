@@ -22,10 +22,6 @@
   display: block;
 }
 
-.hero-social {
-  padding-block-end: 24px;
-}
-
 @media screen and (min-width: 768px) {
   .hero {
     display: flex;
